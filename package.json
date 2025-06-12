@@ -1,0 +1,10 @@
+{
+  "name": "n8n-render",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "n8n": "^1.44.0"
+  }
+}
