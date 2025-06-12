@@ -1,5 +1,1 @@
-const { start } = require("n8n");
-
-start({
-  port: process.env.PORT || 5678
-});
+require('child_process').execSync('n8n start', { stdio: 'inherit' });
